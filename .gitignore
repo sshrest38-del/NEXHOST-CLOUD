@@ -1,0 +1,36 @@
+# Environment and Secrets (CRITICAL: NEVER COMMIT)
+.env
+.env.local
+.streamlit/secrets.toml
+secrets.toml
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime data
+data/nexhost.db
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and runtime artifacts
+logs/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
